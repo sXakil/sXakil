@@ -2,7 +2,7 @@
 
 I am a fullstack Web and Mobile Application Developer, specializing in **React** and **React Native**, along with NEXT, Gatsby, and **MUI**. I prefer Laravel, Codigniter, Express or Django for the backend and MySQL, OracleDB or Mongo for database.
 
-My top projects includes—
+My top projects include—
 
 - Product designer applications
 - NFT showcasing websites
