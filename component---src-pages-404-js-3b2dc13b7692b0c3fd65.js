@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkshakil_ahmmed=self.webpackChunkshakil_ahmmed||[]).push([[883],{9616:function(e,a,s){s.r(a);var n=s(7294);a.default=function(){return n.createElement("div",{className:"fof-wrapper"},"404")}}}]);
-//# sourceMappingURL=component---src-pages-404-js-3b2dc13b7692b0c3fd65.js.map
