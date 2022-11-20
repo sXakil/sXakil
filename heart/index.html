@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <title>😘😘😘</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        background: url("heart.jpg") no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        background-color: #000;
+        overflow: hidden;
+      }
+      svg.mainheart path.heart {
+        fill: #da7dffff;
+        fill-opacity: 1;
+        stroke: none;
+      }
+      svg.mainheart {
+        position: absolute;
+        width: 50vw;
+        height: 50vh;
+        top: 25vh;
+        left: 25vw;
+        z-index: 10;
+      }
+      svg.flyingheart {
+        position: absolute;
+        width: 30vw;
+        height: 30vh;
+        top: 0vh;
+        left: 0vw;
+        z-index: 0;
+      }
+      .ex-heart {
+        width: 100px;
+        height: 100px;
+        background: url("heart.png") no-repeat;
+        transform: scale(1.5);
+      }
+      .stage {
+        position: fixed;
+        top: -100px;
+        left: -100px;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+      }
+      #mainheart {
+        animation: heartbeat 1s infinite;
+      }
+      @keyframes heartbeat {
+        0% {
+          transform: scale(1);
+        }
+        15% {
+          transform: scale(1.2) translate(-10%, -10%);
+        }
+        30% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2) translate(-10%, -10%);
+        }
+        80% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <svg class="mainheart" viewBox="0 0 100 100" style="opacity: 1">
+      <defs>
+        <clipPath id="cp" patternUnits="userSpaceOnUse">
+          <path
+            d="m 71.266058,6.3376802 c 2.56218,0 5.024723,0.336538 7.387603,1.0114854 2.362903,0.6457583 4.569226,1.5734105 6.618966,2.7816924 2.078214,1.180028 3.957137,2.612956 5.636792,4.29879 1.708112,1.657648 3.160004,3.512152 4.355693,5.563182 1.224163,2.02298 2.163624,4.200434 2.8184,6.532423 0.683224,2.332065 1.024872,4.762486 1.024872,7.291203 0,3.736941 -0.69753,7.249026 -2.092443,10.536389 -1.366508,3.287238 -3.387776,6.251524 -6.063822,8.892606 L 49.999991,93.662716 9.0478787,53.245451 C 6.3718334,50.604369 4.3363204,47.640083 2.9413563,44.352845 1.5748568,41.065482 0.8916155,37.553397 0.8916155,33.816456 c 0,-2.528717 0.3274096,-4.959138 0.9821615,-7.291203 0.6832329,-2.360049 1.6227192,-4.551621 2.8184004,-6.5746 1.1956807,-2.02298 2.6475727,-3.877349 4.3557013,-5.563124 1.7081113,-1.685834 3.5870413,-3.118762 5.6367743,-4.298916 2.049749,-1.1800287 4.256072,-2.0932171 6.618953,-2.7394474 2.391378,-0.6741466 4.868141,-1.0114854 7.43033,-1.0114854 2.192078,0 4.256047,0.2252521 6.191914,0.6741466 1.935867,0.4211804 3.757869,1.0396799 5.465981,1.8544363 1.736576,0.8148997 3.38776,1.8262499 4.953546,3.0344649 1.594238,1.180096 3.145776,2.528785 4.654614,4.046017 1.508845,-1.517232 3.046146,-2.865921 4.61192,-4.046017 1.594239,-1.208215 3.24543,-2.2195652 4.953542,-3.0344649 1.736594,-0.842816 3.572814,-1.4751135 5.508682,-1.8965552 1.935877,-0.421172 3.999836,-0.6324239 6.191923,-0.6324239 z"
+          ></path>
+        </clipPath>
+      </defs>
+      <path
+        id="mainheartpath"
+        class="heart"
+        d="m 71.266058,6.3376802 c 2.56218,0 5.024723,0.336538 7.387603,1.0114854 2.362903,0.6457583 4.569226,1.5734105 6.618966,2.7816924 2.078214,1.180028 3.957137,2.612956 5.636792,4.29879 1.708112,1.657648 3.160004,3.512152 4.355693,5.563182 1.224163,2.02298 2.163624,4.200434 2.8184,6.532423 0.683224,2.332065 1.024872,4.762486 1.024872,7.291203 0,3.736941 -0.69753,7.249026 -2.092443,10.536389 -1.366508,3.287238 -3.387776,6.251524 -6.063822,8.892606 L 49.999991,93.662716 9.0478787,53.245451 C 6.3718334,50.604369 4.3363204,47.640083 2.9413563,44.352845 1.5748568,41.065482 0.8916155,37.553397 0.8916155,33.816456 c 0,-2.528717 0.3274096,-4.959138 0.9821615,-7.291203 0.6832329,-2.360049 1.6227192,-4.551621 2.8184004,-6.5746 1.1956807,-2.02298 2.6475727,-3.877349 4.3557013,-5.563124 1.7081113,-1.685834 3.5870413,-3.118762 5.6367743,-4.298916 2.049749,-1.1800287 4.256072,-2.0932171 6.618953,-2.7394474 2.391378,-0.6741466 4.868141,-1.0114854 7.43033,-1.0114854 2.192078,0 4.256047,0.2252521 6.191914,0.6741466 1.935867,0.4211804 3.757869,1.0396799 5.465981,1.8544363 1.736576,0.8148997 3.38776,1.8262499 4.953546,3.0344649 1.594238,1.180096 3.145776,2.528785 4.654614,4.046017 1.508845,-1.517232 3.046146,-2.865921 4.61192,-4.046017 1.594239,-1.208215 3.24543,-2.2195652 4.953542,-3.0344649 1.736594,-0.842816 3.572814,-1.4751135 5.508682,-1.8965552 1.935877,-0.421172 3.999836,-0.6324239 6.191923,-0.6324239 z"
+      ></path>
+      <image
+        id="boo"
+        clip-path="url(#cp)"
+        href="heart.jpg"
+        x="0"
+        y="0"
+        width="100%"
+        height="100%"
+        display="none"
+      />
+    </svg>
+    <div class="stage">
+      <div class="ex-heart"></div>
+    </div>
+    <script>
+      let mainHeart = document.getElementById("mainheartpath");
+      mainHeart.setAttributeNS(
+        null,
+        "style",
+        "fill:#ffffff;stroke:#e3264d;stroke-width:1"
+      );
+      let movingObjects = [];
+      function startExplosion() {
+        movingObjects = [];
+        for (let i = 0; i < 100; i++) {
+          let newSvg = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "svg"
+          );
+          newSvg.setAttributeNS(null, "class", "flyingheart");
+          newSvg.setAttributeNS(null, "viewBox", "0 0 100 100");
+          let newPath = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path"
+          );
+          newPath.setAttributeNS(null, "class", "heart");
+          newPath.setAttributeNS(
+            null,
+            "d",
+            mainHeart.getAttributeNS(null, "d")
+          );
+          newSvg.appendChild(newPath);
+          document.body.appendChild(newSvg);
+          newSvg.style.opacity = 0;
+          movingObjects.push(newSvg);
+        }
+        setTimeout(() => {
+          window.requestAnimationFrame(gameLoop);
+          document.getElementById("boo").style.display = "block";
+          document.body.style.background = "rgba(0, 0, 0, 0.95)";
+        }, 500);
+        mainHeart.removeEventListener("click", startExplosion);
+      }
+      mainHeart.addEventListener("click", startExplosion);
+
+      function gameLoop() {
+        movingObjects.forEach((item) => {
+          if (item.style.opacity < 0.05) {
+            const red = Math.floor(Math.random() * 100 + 135);
+            item.children[0].setAttributeNS(
+              null,
+              "style",
+              "fill: #" + red.toString(16) + "7dffff;"
+            );
+            item.vx = Math.random() * 2 - 1;
+            item.vy = Math.random() * 2 - 1;
+            if (item.vx > 0 && item.vx < 0.05) item.vx = 0.05;
+            if (item.vx < 0 && item.vx > -0.05) item.vx = -0.05;
+            if (item.vy > 0 && item.vy < 0.05) item.vy = 0.05;
+            if (item.vy < 0 && item.vy > -0.05) item.vy = -0.05;
+            let speed = Math.abs(item.vy / item.vx);
+            item.vo = -0.01 * speed;
+            item.vs = 0.01 * speed;
+            item.co = 1;
+            item.cs = 0.1;
+            item.cx = 40;
+            item.cy = 40;
+          } else {
+            item.co += item.vo;
+            item.cx += item.vx;
+            item.cy += item.vy;
+            item.cs += item.vs;
+          }
+          item.style.opacity = item.co;
+          item.style.top = item.cx + "vh";
+          item.style.left = item.cy + "vw";
+          item.style.transform = "scale(" + item.cs + ", " + item.cs + ")";
+        });
+        window.requestAnimationFrame(gameLoop);
+      }
+
+      const stage = document.querySelector(".stage");
+      document.body.addEventListener("click", function (e) {
+        const st = stage.cloneNode(true);
+        st.style.top = e.clientY + "px";
+        st.style.left = e.clientX + "px";
+        const ht = st.querySelector(".ex-heart");
+        document.body.appendChild(st);
+        let pos = 0;
+        let done = false;
+        let init = Date.now();
+        function step() {
+          if (done) return;
+          const now = Date.now();
+          const dt = now - init;
+          if (dt > 35) {
+            ht.style.backgroundPosition = `-${pos}px 0`;
+            pos += 100;
+            init = now;
+          }
+          if (pos >= 2800) {
+            document.body.removeChild(st);
+            done = true;
+          } else {
+            window.requestAnimationFrame(step);
+          }
+        }
+        window.requestAnimationFrame(step);
+      });
+    </script>
+  </body>
+</html>
