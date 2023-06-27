@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkshakil_ahmmed=self.webpackChunkshakil_ahmmed||[]).push([[883],{429:function(e,a,l){l.r(a);var n=l(7294);a.default=()=>n.createElement("div",{className:"fof-wrapper"},n.createElement("span",null,"404"),n.createElement("small",null,"Page not found."))}}]);
+//# sourceMappingURL=component---src-pages-404-js-c6ee7931cffe27b0c406.js.map
