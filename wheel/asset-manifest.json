@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.js": "/wheel/static/js/main.697a1cd1.js",
-    "static/js/244.f26bc102.chunk.js": "/wheel/static/js/244.f26bc102.chunk.js",
-    "static/js/312.1a1c07dd.chunk.js": "/wheel/static/js/312.1a1c07dd.chunk.js",
-    "static/js/259.c7c1733c.chunk.js": "/wheel/static/js/259.c7c1733c.chunk.js",
+    "main.js": "/wheel/static/js/main.5e0f646c.js",
+    "static/js/212.1a90997c.chunk.js": "/wheel/static/js/212.1a90997c.chunk.js",
+    "static/js/305.c42b717b.chunk.js": "/wheel/static/js/305.c42b717b.chunk.js",
+    "static/js/651.545eea83.chunk.js": "/wheel/static/js/651.545eea83.chunk.js",
+    "static/js/925.a5e8f55f.chunk.js": "/wheel/static/js/925.a5e8f55f.chunk.js",
+    "static/js/645.09fca490.chunk.js": "/wheel/static/js/645.09fca490.chunk.js",
+    "static/js/413.6fe4f38f.chunk.js": "/wheel/static/js/413.6fe4f38f.chunk.js",
+    "static/js/462.1ef0fe41.chunk.js": "/wheel/static/js/462.1ef0fe41.chunk.js",
+    "static/js/570.4eb0add3.chunk.js": "/wheel/static/js/570.4eb0add3.chunk.js",
+    "static/js/854.f99ae005.chunk.js": "/wheel/static/js/854.f99ae005.chunk.js",
+    "static/js/468.bfd5dbf6.chunk.js": "/wheel/static/js/468.bfd5dbf6.chunk.js",
+    "static/js/556.61afcd8d.chunk.js": "/wheel/static/js/556.61afcd8d.chunk.js",
+    "static/js/452.08a342f7.chunk.js": "/wheel/static/js/452.08a342f7.chunk.js",
+    "static/js/463.62c69b6b.chunk.js": "/wheel/static/js/463.62c69b6b.chunk.js",
+    "static/js/435.f909e133.chunk.js": "/wheel/static/js/435.f909e133.chunk.js",
+    "static/js/657.a08798c1.chunk.js": "/wheel/static/js/657.a08798c1.chunk.js",
     "index.html": "/wheel/index.html",
-    "static/media/mock-watermark.webp": "/wheel/static/media/mock-watermark.92fc0c56919865116b7c.webp",
-    "main.697a1cd1.js.map": "/wheel/static/js/main.697a1cd1.js.map",
-    "244.f26bc102.chunk.js.map": "/wheel/static/js/244.f26bc102.chunk.js.map",
-    "312.1a1c07dd.chunk.js.map": "/wheel/static/js/312.1a1c07dd.chunk.js.map",
-    "259.c7c1733c.chunk.js.map": "/wheel/static/js/259.c7c1733c.chunk.js.map"
+    "static/media/mock-watermark.webp": "/wheel/static/media/mock-watermark.92fc0c56919865116b7c.webp"
   },
   "entrypoints": [
-    "static/js/main.697a1cd1.js"
+    "static/js/main.5e0f646c.js"
   ]
 }
